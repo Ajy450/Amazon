@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite name : Smoke Test in Sahil classes" duration-ms="222281" started-at="2018-10-20T16:05:16Z" finished-at="2018-10-20T16:08:58Z">
+    <groups>
+    </groups>
+    <test name="Test Name : My TestNG practices" duration-ms="222281" started-at="2018-10-20T16:05:16Z" finished-at="2018-10-20T16:08:58Z">
+      <class name="com.test.demo.LoginTest">
+        <test-method status="PASS" signature="initTestMethods()[pri:0, instance:com.test.demo.LoginTest@13eb8acf]" name="initTestMethods" is-config="true" duration-ms="230" started-at="2018-10-20T16:05:15Z" finished-at="2018-10-20T16:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestMethods -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.test.demo.LoginTest@13eb8acf]" name="launchBrowser" is-config="true" duration-ms="124503" started-at="2018-10-20T16:05:16Z" finished-at="2018-10-20T16:07:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.test.demo.LoginTest.AmazonLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="AmazonLogin()[pri:0, instance:com.test.demo.LoginTest@13eb8acf]" name="AmazonLogin" duration-ms="95639" started-at="2018-10-20T16:07:20Z" finished-at="2018-10-20T16:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.test.demo.LoginTest@13eb8acf]" name="cleanUp" is-config="true" duration-ms="2112" started-at="2018-10-20T16:08:56Z" finished-at="2018-10-20T16:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="cleanTestMethods()[pri:0, instance:com.test.demo.LoginTest@13eb8acf]" name="cleanTestMethods" is-config="true" duration-ms="615" started-at="2018-10-20T16:08:58Z" finished-at="2018-10-20T16:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTestMethods -->
+      </class> <!-- com.test.demo.LoginTest -->
+    </test> <!-- Test Name : My TestNG practices -->
+  </suite> <!-- Suite name : Smoke Test in Sahil classes -->
+</testng-results>
